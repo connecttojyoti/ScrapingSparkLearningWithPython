@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Holiday_extraction"
+version = "0.1.0"
+description = "This project for parsing Australia holidays"
+authors = ["Jyoti"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.8"
+beautifulsoup4= "^4.12.3"
+numpy="^1.24.4"
+pandas="^2.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest= "^8.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
