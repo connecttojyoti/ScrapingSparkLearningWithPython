@@ -11,7 +11,7 @@ and can run them
 # Virtual Environment setup 
 ## Getting Pyenv
 ### Homebrew in macOS
-Consider installing with Homebrew
+Consider installing with [Homebrew](https://brew.sh/)
 
 brew update
 brew install pyenv
